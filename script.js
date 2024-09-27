@@ -72,7 +72,7 @@ function showemoji(player,computer) {
     scissors.addEventListener('click', () => playround('scissors'));
     }
   function reset(child,parent,dis) {
-    child.setAttribute("style", "margin-left: 45%; margin-top: 15px; font-size: 25px; height: 60px; width: 90px; color: white; background-color: blue;");
+    child.setAttribute("style", "margin-left: 47%; margin-top: 15px; font-size: 25px; height: 60px; width: 90px; color: white; background-color: blue;border-radius: 15px;");
     child.textContent = 'Reset';    
     parent.appendChild(child);
     child.addEventListener('click',()=> {
